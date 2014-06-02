@@ -14,7 +14,7 @@ License :The theme can not be used without permission;
 
 /**
  * Table of Contents:
- *
+ * 1.0 Html,Body,Div,ul,ol ---> CSS Rules
 
 
 
@@ -22,3 +22,77 @@ License :The theme can not be used without permission;
 
  * -->>>> the end <<<<--
  */
+
+ /*1.0 HTML BODY DIV UL OL etc */
+
+ html {
+ 	color: #111;
+ 	background: #fff;  /*基础的 css文件，让 html 的背景颜色变成白色*/
+ }
+
+ body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset,
+ legend, input, button, textarea, blockquote {
+ 	margin: 0;
+ 	padding: 0;   
+ }
+
+ ul, ol{
+
+ 	/*display: none;*/  /*display none,整个 ul和ol 都消失了。*/
+ 	list-style: none;  
+ }
+
+ div{
+ 	display: block;  /*display the div use block*/
+ }
+
+ body, td, th {
+ 	font: 1em Helvetica, Arial, sans-serif;
+ 	line-height: 1.62
+ }
+
+/*li{
+	display: inline; 建议用在div的id或者 class 之中
+	}*/
+
+	#wrapper {
+		width: 950px;
+		margin: 0 auto
+		}  /*将网站的正文部分包裹起来*/
+
+
+		/*a:link a:hover 的使用*/
+		a:link {
+			color: #37a;
+			text-decoration: none
+		}
+
+		a:visited {
+			color: #669;
+			text-decoration: none
+		}
+
+		a:hover {
+			color: #fff;
+			text-decoration: none;
+			background: #37a
+		}
+
+		a:active {
+			color: #fff;
+			text-decoration: none;
+			background: #f93
+		}
+
+
+
+
+		/*1.1 class:wan-top-nav CSS RULE*/
+
+		.wan-top-nav{
+			height: 46px;
+			color: #d5d5d5;
+			background-color: #0767c8;
+			min-width: 950px;
+
+		}
