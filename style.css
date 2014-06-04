@@ -13,7 +13,7 @@ License :The theme can not be used without permission;
 
 
 /**
- * Table of Contents:
+ * Table of Contents:  we need css reset rule ---TODO add css reset rule here!
  * 1.0 Html,Body,Div,ul,ol ---> CSS Rules
    *1.1 class:wan-top-nav CSS RULE
    *1.2 float rigth or float left
@@ -84,28 +84,36 @@ License :The theme can not be used without permission;
 			color: #fff;
 			text-decoration: none;
 			background: #f93
-		}*/
+			}*/
 
 
 
 
-		/*1.1 class:wan-top-nav CSS RULE*/
+			/*1.1 class:wan-top-nav CSS RULE*/
 
+			#wan-top-nav{
+				width: 950px;
+				margin:0 auto 25px;
+
+			}
+
+/*记得为 h1添加一些样式，比如背景的颜色，展示的样式，以及点击后链接的样式，接下来是添加关于搜索框的内容*/
 		
 
-	
 
 
 
-		/* 1.2 float right or float_left*/
 
-		.float_right{
 
-			float: right;
-		}
-		.float_left{
-			float: left;
+			/* 1.2 float right or float_left*/
 
-		}	
+			.float_right{
+
+				float: right;
+			}
+			.float_left{
+				float: left;
+
+			}	
 
 
