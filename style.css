@@ -64,89 +64,113 @@ License :The theme can not be used without permission;
 
 
 		/*a:link a:hover 的使用*/
-	/*	a:link {
-			color: #37a;
-			text-decoration: none
+		a:link {
+			color: #0666c5 ; /*正常是蓝色，背景颜色保持与 HTML 的一直，无需修改*/
+			text-decoration: none;
 		}
 
 		a:visited {
-			color: #669;
-			text-decoration: none
+			color: #666;
+			text-decoration: none;
 		}
 
 		a:hover {
-			color: #fff;
+			color: #006699;
 			text-decoration: none;
-			background: #37a
+			/*background: white;*/
 		}
 
 		a:active {
 			color: #fff;
 			text-decoration: none;
-			background: #f93
-			}*/
+			/*background: #f93*/
+		}
 
 
 
 
-			/*1.1 class:wan-top-nav CSS RULE*/
+		/*1.1 class:wan-top-nav CSS RULE*/
 
-			#wan-top-nav{
-				width: 950px;
-				margin:0 auto 25px;
+		#wan-top-nav{
+			width: 950px;
+			margin:0 auto 25px;
 
-			}
+		}
 
-			#wan-top-nav h1{
-				display: inline-block;
-				/*margin-top: 14px;*/
-				height: 29px;
-			   font-weight: normal;
-			}
+		#wan-top-nav h1{
+			display: inline-block;
+			/*margin-top: 14px;*/
+			height: 29px;
+			font-weight: normal;
+		}
 
-			/*记得为 h1添加一些样式，比如背景的颜色，展示的样式，以及点击后链接的样式，接下来是添加关于搜索框的内容*/
-			#wan-top-nav .wan-search-bar{
-				position: relative;
-				display: inline-block;
-				/**display: inline;*/
-				zoom: 1;
-				vertical-align: middle;
-				width: 270px;
-				height: 30px;
-				border: 1px solid #c3c3c3;
-				padding-left:12px;
-				/*padding-right: 15px;*/
+		/*记得为 h1添加一些样式，比如背景的颜色，展示的样式，以及点击后链接的样式，接下来是添加关于搜索框的内容*/
+		#wan-top-nav .wan-search-bar{
+			position: relative;
+			display: inline-block;
+			/**display: inline;*/
+			zoom: 1;
+			vertical-align: middle;
+			width: 270px;
+			height: 30px;
+			border: 1px solid #c3c3c3;
+			padding-left:12px;
+			/*padding-right: 15px;*/
 
-			}
-			#wan-top-nav .wan-search-input{
-				display: block;
-				height: 30px;
-				overflow: hidden
+		}
+		#wan-top-nav .wan-search-input{
+			display: block;
+			height: 30px;
+			overflow: hidden;
 
-			}
-			#wan-top-nav .wan-search-input input{
+		}
+		#wan-top-nav .wan-search-input input{
 
-				width: 240px;
-				border: 0;
-				font-size: 13px;
-				height: 20px;
-				padding: 5px
-			}
+			width: 240px;
+			border: 0;
+			font-size: 13px;
+			height: 20px;
+			padding: 5px;
+		}
+
+		#wan-top-nav .wan-top-nav-links 
+		{
+			float: right;
+			margin-top: 15px;
+
+		}
+		#wan-top-nav .wan-top-nav-links li{
+
+			display: inline;
+			zoom:1;
+			margin:0 0 0 20px;
+
+		}
+
+		#wan-top-nav  .wan-top-nav-links li a{
+			display: inline;
+			zoom: 1;
+			width: 40px;
+			height: 20px;
+			font-size: 16px;
+			/*overflow: hidden;*/
+			/*margin-top: 20px;
+*/			/*line-height: 20em;*/
+			/*outline: 0;*/
+			vertical-align: middle;
+		}
 
 
 
+		/* 1.2 float right or float_left*/
 
+		.float_right{
 
+			float: right;
+		}
+		.float_left{
+			float: left;
 
-			/* 1.2 float right or float_left*/
-
-			.float_right{
-
-				float: right;
-			}
-			.float_left{
-				float: left;
-
-			}	
+		}	
 
 
