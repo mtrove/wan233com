@@ -97,8 +97,41 @@ License :The theme can not be used without permission;
 
 			}
 
-/*记得为 h1添加一些样式，比如背景的颜色，展示的样式，以及点击后链接的样式，接下来是添加关于搜索框的内容*/
-		
+			#wan-top-nav h1{
+				display: inline-block;
+				/*margin-top: 14px;*/
+				height: 29px;
+			   font-weight: normal;
+			}
+
+			/*记得为 h1添加一些样式，比如背景的颜色，展示的样式，以及点击后链接的样式，接下来是添加关于搜索框的内容*/
+			#wan-top-nav .wan-search-bar{
+				position: relative;
+				display: inline-block;
+				*display: inline;
+				zoom: 1;
+				vertical-align: middle;
+				width: 270px;
+				height: 30px;
+				border: 1px solid #c3c3c3;
+				/*padding-left:15px;
+				padding-right: 15px;*/
+
+			}
+			#wan-top-nav .wan-search-input{
+				display: block;
+				height: 30px;
+				overflow: hidden
+
+			}
+			#wan-top-nav .wan-search-input input{
+
+				width: 240px;
+				border: 0;
+				font-size: 13px;
+				height: 20px;
+				padding: 5px
+			}
 
 
 
