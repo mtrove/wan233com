@@ -64,7 +64,7 @@ License :The theme can not be used without permission;
 
 
 		/*a:link a:hover 的使用*/
-		a:link {
+	/*	a:link {
 			color: #37a;
 			text-decoration: none
 		}
@@ -84,38 +84,18 @@ License :The theme can not be used without permission;
 			color: #fff;
 			text-decoration: none;
 			background: #f93
-		}
+		}*/
 
 
 
 
 		/*1.1 class:wan-top-nav CSS RULE*/
 
-		.wan-top-nav{
-			height: 46px;
-			color: #d5d5d5;
-			background-color: #0767c8;
-			min-width: 950px;
-			/*display: inline-block;*/
+		
 
-		}
-		.wan-top-nav li{
+	
 
-			display: inline-block;
-			*display: inline;
-			zoom: 1;
-			line-height: 30px;
-			font-size: 16px;
-			vertical-align: baseline
 
-		}
-		.wan-top-nav a{
-			display: inline-block;
-			*display: inline;
-			zoom:1;
-			padding: 0 12px;
-			height: 12px;
-		}
 
 		/* 1.2 float right or float_left*/
 
@@ -127,5 +107,5 @@ License :The theme can not be used without permission;
 			float: left;
 
 		}	
-	
+
 
