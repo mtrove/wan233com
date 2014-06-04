@@ -15,6 +15,8 @@ License :The theme can not be used without permission;
 /**
  * Table of Contents:
  * 1.0 Html,Body,Div,ul,ol ---> CSS Rules
+   *1.1 class:wan-top-nav CSS RULE
+   *1.2 float rigth or float left
 
 
 
@@ -94,5 +96,33 @@ License :The theme can not be used without permission;
 			color: #d5d5d5;
 			background-color: #0767c8;
 			min-width: 950px;
+			/*display: inline-block;*/
 
 		}
+		.wan-top-nav li{
+
+			display: inline-block;
+			*display: inline;
+			zoom: 1;
+			line-height: 30px;
+			font-size: 16px;
+			vertical-align: baseline
+		}
+		.wan-top-nav a{
+			display: inline-block;
+			*display: inline;
+			zoom:1;
+			padding: 0 12px;
+			height: 12px;
+		}
+
+		/* 1.2 float right or float_left*/
+
+		.float_right{
+
+			float: right;
+		}
+		.float_left{
+			float: left;
+
+		}	
