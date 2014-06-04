@@ -108,14 +108,14 @@ License :The theme can not be used without permission;
 			#wan-top-nav .wan-search-bar{
 				position: relative;
 				display: inline-block;
-				*display: inline;
+				/**display: inline;*/
 				zoom: 1;
 				vertical-align: middle;
 				width: 270px;
 				height: 30px;
 				border: 1px solid #c3c3c3;
-				/*padding-left:15px;
-				padding-right: 15px;*/
+				padding-left:12px;
+				/*padding-right: 15px;*/
 
 			}
 			#wan-top-nav .wan-search-input{
