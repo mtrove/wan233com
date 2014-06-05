@@ -206,8 +206,26 @@ License :The theme can not be used without permission;
             padding:10px 0;
             margin-bottom: 30px;
             min-height: 200px;
-            /*background: black;  通过颜色来测试框架的大小*/
+            /*background: black;*/  /*通过颜色来测试框架的大小*/
 
 		}
+		.wan-com-adsense{
+			background:red;
+			width: 950px;
+			height: 100px;
+			margin: 0px;
+			overflow: hidden;
+		}
+		.section  .side{
+			float: right;
+			width: 265px;
+			margin-left: 20px;
+			background: blue;
+		}
+        .section .main-content{
+        	float: left;
+        	background: green;
 
+
+        }
 
