@@ -212,7 +212,7 @@ License :The theme can not be used without permission;
 		.wan-com-adsense{
 			background:red;
 			width: 950px;
-			height: 100px;
+			height: 90px;  /*假设有这样的一个广告位置*/
 			margin: 0px;
 			overflow: hidden;
 		}
@@ -220,11 +220,12 @@ License :The theme can not be used without permission;
 			float: right;
 			width: 265px;
 			margin-left: 20px;
-			background: blue;
+			/*background: blue;*/
 		}
         .section .main-content{
-        	float: left;
-        	background: green;
+        	overflow: hidden;
+        	zoom:1;
+        	/*background: red;*/
 
 
         }
