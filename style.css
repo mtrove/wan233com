@@ -232,17 +232,22 @@ License :The theme can not be used without permission;
         }
 
         /*2.1 hot new content*/
-         .section .hot-news-content{
+         .hot-news-content{
 
          	margin-bottom: 30px;
-         	width: auto;
+         	width: 100%;
          	padding:5px;
+         	float: left;
+         	overflow: auto;
          }
-
-         .hot-news-title{
+          /* hot-news content style css rule*/
+         .hot-news-content-inner{
          	margin-left: 185px;
          	min-height: 100px;
          	padding:5px;
+         	/*overflow: hidden;
+         	zoom:1;*/
+         /*	margin-top: 10px;*/
 
          }
          .hot-news-headlines{
@@ -253,5 +258,12 @@ License :The theme can not be used without permission;
          .news-headline-hour-style{
          	font-size: 11px;
          	color: blue;
+         }
+
+           /*the thum-image style css rule*/
+         .thum-image{
+            float: left;
+            margin: 0 12px 0 0;
+
          }
 
