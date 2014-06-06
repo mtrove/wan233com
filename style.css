@@ -238,7 +238,8 @@ License :The theme can not be used without permission;
          	width: 100%;
          	padding:5px;
          	float: left;
-         	overflow: auto;
+         	/*float: left;*/
+         	/*overflow: auto;*/
          }
           /* hot-news content style css rule*/
          .hot-news-content-inner{
@@ -263,7 +264,11 @@ License :The theme can not be used without permission;
            /*the thum-image style css rule*/
          .thum-image{
             float: left;
-            margin: 0 12px 0 0;
+            margin: 0px 12px 0px 0;
+            padding:10px;
+
+           /* padding: 0 10px;*/
 
          }
+      
 
