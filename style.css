@@ -19,6 +19,7 @@ License :The theme can not be used without permission;
    *1.2 float rigth or float left
    *1.3 网站目录页面的 css 规则
  * 2.0  body- content and the section side bar content css rule  或者采用另外一种方式，写入另外一个 git branch
+   *2.1 hot-news-content
 
 
 
@@ -229,4 +230,28 @@ License :The theme can not be used without permission;
 
 
         }
+
+        /*2.1 hot new content*/
+         .section .hot-news-content{
+
+         	margin-bottom: 30px;
+         	width: auto;
+         	padding:5px;
+         }
+
+         .hot-news-title{
+         	margin-left: 185px;
+         	min-height: 100px;
+         	padding:5px;
+
+         }
+         .hot-news-headlines{
+
+         	font-size: 14px;
+
+         }
+         .news-headline-hour-style{
+         	font-size: 11px;
+         	color: blue;
+         }
 
