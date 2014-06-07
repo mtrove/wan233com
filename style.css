@@ -270,5 +270,10 @@ License :The theme can not be used without permission;
            /* padding: 0 10px;*/
 
          }
-      
+         
+          .view-updates{
+          	text-align: center;
+          	background: blue;
+          	margin-right: 225px;
+          }
 
