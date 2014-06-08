@@ -163,19 +163,7 @@ License :The theme can not be used without permission;
 			/*outline: 0;*/
 			vertical-align: middle;
 		}
-
-
-
-		/* 1.2 float right or float_left*/
-
-		.float_right{
-
-			float: right;
-		}
-		.float_left{
-			float: left;
-
-		}	
+	
 
 		/* 1.3 网站的目录 CSS规则代码*/
 
@@ -276,4 +264,17 @@ License :The theme can not be used without permission;
           	background: blue;
           	margin-right: 225px;
           }
+          
+          .section:nth-child(2n){
+            background: #DBF4AE;
+            padding: 40px 0 20px;
 
+          }
+
+          .section .side_navi{
+          	float: left;
+          	margin-right: 20px;
+          	width: 100px;
+
+
+          }
