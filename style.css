@@ -220,7 +220,7 @@ License :The theme can not be used without permission;
 		}
 
 		/*2.1 hot new content*/
-		.hot-news-content{
+		.new-hot-content{
 
 			margin-bottom: 30px;
 			width: 100%;
@@ -358,11 +358,50 @@ License :The theme can not be used without permission;
          		color: #999
 
          	}
-      
-      /*以下是 list.html 可能用到的 CSS 规则   	*/
-        .blogroll{
+
+         	/*以下是 list.html 可能用到的 CSS 规则   	*/
+         	.blogroll{
+         		margin-bottom: 15px;
 
 
-        	
-        }
+         	}
+         	.blogroll li{
+
+         		position: relative;
+         		/*padding: 12px 0px 10px 150px;*/
+         		border-bottom: 1px dashed #999;
+         		overflow: hidden;
+         		min-height: 5em;
+         	}
+         	.blogroll a.listing{
+         		/*position: absolute;*/
+         		margin-top: 15px;
+         		padding-top: 10px;
+         		left: 0px;
+         		width: 135px;
+
+         	}
+
+         	.blogroll img.listing{
+         		width: 135px;
+         	}
+
+         	.content{
+         		padding: 10px 0px 10px 20px;
+         		float: left;
+         		width: 625px;
+         		/*margin-top: 30px;*/
+         		margin-left: 0px;
+         		clear: both;
+         		zoom:1;
+         		/*position: absolute;*/
+         	}
+         	.now-where{
+         		float:left;
+         		margin-bottom: 10px;
+         	}
+
+         	/*ul Spotlight 的 css rule*/
+
+        
 
