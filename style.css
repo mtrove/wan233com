@@ -373,21 +373,10 @@ License :The theme can not be used without permission;
          		overflow: hidden;
          		min-height: 5em;
          	}
-         	.blogroll a.listing{
-         		/*position: absolute;*/
-         		margin-top: 15px;
-         		padding-top: 10px;
-         		left: 0px;
-         		width: 135px;
-
-         	}
-
-         	.blogroll img.listing{
-         		width: 135px;
-         	}
+         
 
          	.content{
-         		padding: 10px 0px 10px 20px;
+         		padding: 10px 0px 10px 0px;
          		float: left;
          		width: 625px;
          		/*margin-top: 30px;*/
@@ -403,5 +392,31 @@ License :The theme can not be used without permission;
 
          	/*ul Spotlight 的 css rule*/
 
-        
+         	.listpage-ad{
+
+         		width: 625px;
+         		margin-top: 0px;
+         		margin-right: 275px;
+         		margin-bottom: 15px;
+         		margin-left: 0px;
+         		clear: both;
+         		height: 175px;
+         	}
+
+         	.listpage-ad li {
+         		padding:0px 8px;
+         		border-right-width: 1px;
+         		border-right-style: solid;
+         		border-right-color: rgb(51, 51, 51);
+         		font-size: 18px;
+         		width: 135px;
+         		height: 155px;
+         		float: left;
+         		line-height: 22px;
+         		color: rgb(51, 51, 51);
+         		font-family: proxima-nova, 'helvetica neue', arial, sans-serif;
+         		font-weight: 400;
+         		overflow-y: hidden;
+         	}
+
 
