@@ -242,6 +242,8 @@ License :The theme can not be used without permission;
          .hot-news-headlines{
 
          	font-size: 14px;
+            overflow: hidden; 
+            /*解决关于博客列表的显示问题*/
 
          }
          .news-headline-hour-style{
@@ -373,7 +375,7 @@ License :The theme can not be used without permission;
          		overflow: hidden;
          		min-height: 5em;
          	}
-         
+
 
          	.content{
          		padding: 10px 0px 10px 0px;
@@ -420,6 +422,14 @@ License :The theme can not be used without permission;
          	}
          /*	.listpage-ad img{
          		overflow: hidden;
-         	}*/
+              }*/
 
+              /*the content html  style css rule */
+              .our-article {
+               float: left;
+               width: 635px;
+               overflow: hidden;
+
+
+              }
 
