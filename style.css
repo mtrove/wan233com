@@ -245,41 +245,41 @@ License :The theme can not be used without permission;
             overflow: hidden; 
             /*解决关于博客列表的显示问题*/
 
-         }
-         .news-headline-hour-style{
-         	font-size: 11px;
-         	color: blue;
-         }
+        }
+        .news-headline-hour-style{
+          font-size: 11px;
+          color: blue;
+      }
 
-         /*the thum-image style css rule*/
-         .thum-image{
-         	float: left;
-         	margin: 0px 12px 0px 0;
-         	padding:10px;
+      /*the thum-image style css rule*/
+      .thum-image{
+          float: left;
+          margin: 0px 12px 0px 0;
+          padding:10px;
 
-         	/* padding: 0 10px;*/
+          /* padding: 0 10px;*/
 
-         }
-         
-         .view-updates{
-         	text-align: center;
-         	background: blue;
-         	margin-right: 280px;
-         }
+      }
 
-         .section:nth-child(2n){
-         	background: #DBF4AE;
-         	padding: 40px 0 20px;
+      .view-updates{
+          text-align: center;
+          background: blue;
+          margin-right: 280px;
+      }
 
-         }
+      .section:nth-child(2n){
+          background: #DBF4AE;
+          padding: 40px 0 20px;
 
-         .section .side_navi{
-         	float: left;
-         	margin-right: 10px;
-         	width: 80px;
-         	/*margin-top: 0px;*/
+      }
 
-         }
+      .section .side_navi{
+          float: left;
+          margin-right: 10px;
+          width: 80px;
+          /*margin-top: 0px;*/
+
+      }
         /* .side_navi li{
          	float: right;
          	}*/
@@ -390,60 +390,79 @@ License :The theme can not be used without permission;
          	.now-where{
          		/*/*float:left; 删除这段语句之后标题的位置变得正常了*/
          		margin-bottom: 10px;
-               overflow: hidden;
-               position: relative;
-            }
+                 overflow: hidden;
+                 position: relative;
+             }
 
-            /*ul Spotlight 的 css rule*/
+             /*ul Spotlight 的 css rule*/
 
-            .listpage-ad{
+             .listpage-ad{
 
-             width: 625px;
-             margin-top: 0px;
-             margin-right: 275px;
-             margin-bottom: 15px;
-             margin-left: 0px;
-             clear: both;
-             height: 175px;
-          }
+               width: 625px;
+               margin-top: 0px;
+               margin-right: 275px;
+               margin-bottom: 15px;
+               margin-left: 0px;
+               clear: both;
+               height: 175px;
+           }
 
-          .listpage-ad li {
-             padding:0px 8px;
-             border-right-width: 1px;
-             border-right-style: solid;
-             border-right-color: rgb(51, 51, 51);
-             font-size: 18px;
-             width: 135px;
-             height: 155px;
-             float: left;
-             line-height: 22px;
-             color: rgb(51, 51, 51);
-             font-family: proxima-nova, 'helvetica neue', arial, sans-serif;
-             font-weight: 400;
-             overflow-y: hidden;
-          }
+           .listpage-ad li {
+               padding:0px 8px;
+               border-right-width: 1px;
+               border-right-style: solid;
+               border-right-color: rgb(51, 51, 51);
+               font-size: 18px;
+               width: 135px;
+               height: 155px;
+               float: left;
+               line-height: 22px;
+               color: rgb(51, 51, 51);
+               font-family: proxima-nova, 'helvetica neue', arial, sans-serif;
+               font-weight: 400;
+               overflow-y: hidden;
+           }
          /*	.listpage-ad img{
          		overflow: hidden;
               }*/
 
               /*the content html  style css rule */
               .our-article {
-               float: left;
-               width: 635px;
-               overflow: hidden;
+                 float: left;
+                 width: 635px;
+                 overflow: hidden;
 
 
-            }
-            .post .entry-title {
-             line-height: 28px;
-             padding: 10px 0 0 0;
-             color: #777;
-             font-weight: bold;
-             border-top: 1px solid #efefef;
-             font-size:1.5em;
-          }
-            .entry-cat{
-               margin: 2px,5px;
-               color: #a8a8a8;
-            }
+             }
+             .post .entry-title {
+               line-height: 28px;
+               padding: 10px 0 0 0;
+               color: #777;
+               font-weight: bold;
+               border-top: 1px solid #efefef;
+               font-size:1.5em;
+           }
+           .entry-cat{
+             margin: 2px,5px;
+             color: #a8a8a8;
+         }
+         .entry-banner{
+            margin: 10px 0;
+            background: #f4f4f4;
+            width: 680px;
+            height: 130px;
+            clear: both;
+            position: relative;
+            display: block;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+         .entry-article h3{
+            font-weight: normal;
+            padding: 6px 10px;
+            border: 1px solid gray;
+            color: #CCFFCC;
+            background: white;
+         }
 
